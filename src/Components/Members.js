@@ -6,6 +6,7 @@ class Members extends React.Component {
     super(props);
 
     this.state = {
+      // TODO GTB-4: - 变量命名首字母小写
       Members: [],
     };
   }
@@ -15,6 +16,7 @@ class Members extends React.Component {
   }
 
   fetchData = async () => {
+    // TODO GTB-4: - 可以抽取出API请求层，且axios的使用可以优化
     await axios({ method: 'GET', url: 'http://localhost:8080/members' })
       .then(console.log(Response))
       .then((result) => {
@@ -26,6 +28,7 @@ class Members extends React.Component {
 
   render() {
     return (
+      // TODO GTB-3: - 加强语义化标签的使用
       <div>
         <h1>学员列表</h1>
         <div>
