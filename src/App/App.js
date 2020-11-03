@@ -5,7 +5,7 @@ import './App.scss';
 // TODO GTB-1: * 未实现任一功能
 // TODO GTB-1: * 没有样式，且只能看到“学员列表几个字”，但成功发送学员列表请求及返回数据
 // TODO GTB-2: * 没有测试
-// TODO GTB-3: * 有划分分组列表和学员列表及其item/card组件，且复用也做的很好
+// TODO GTB-3: * 没有进行组件划分
 // TODO GTB-3: * 没有使用语义化标签
 // TODO GTB-3: * 没有写样式
 // TODO GTB-3: * 使用了ES6+语法及axios，不过完成度很低较多内容无法验证
